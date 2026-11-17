@@ -55,3 +55,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(CM5_BRCM_FIRMWARE)/BCM4345C5.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/brcm/BCM4345C5.hcd
+
+# Native wiringOP tools retain their upstream command/library names.
+PRODUCT_PACKAGES += gpio libwiringPi libwiringPiDev
